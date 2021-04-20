@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{28758387-0DA2-47E4-B594-F2DF916F387D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container", "Container\Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_Container", "Container\M03_Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

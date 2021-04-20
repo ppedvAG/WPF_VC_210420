@@ -6,7 +6,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="631" Width="423"
         Title="MainWindow" Height="805" Width="430"
         x:Name="Wnd_Main" WindowStartupLocation="CenterScreen">
     <StackPanel>
