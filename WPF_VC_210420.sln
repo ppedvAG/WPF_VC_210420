@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWPF", "HelloWPF\HelloWPF.csproj", "{4CEE82B4-E666-4871-8539-42A5F979AD26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01_Grundlagen", "HelloWPF\M01_Grundlagen.csproj", "{4CEE82B4-E666-4871-8539-42A5F979AD26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M02_Controls.csproj", "{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{28758387-0DA2-47E4-B594-F2DF916F387D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4CEE82B4-E666-4871-8539-42A5F979AD26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEE82B4-E666-4871-8539-42A5F979AD26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEE82B4-E666-4871-8539-42A5F979AD26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28758387-0DA2-47E4-B594-F2DF916F387D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28758387-0DA2-47E4-B594-F2DF916F387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28758387-0DA2-47E4-B594-F2DF916F387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28758387-0DA2-47E4-B594-F2DF916F387D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
