@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{28758387-0DA2-47E4-B594-F2DF916F387D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Container", "Container\Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{28758387-0DA2-47E4-B594-F2DF916F387D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28758387-0DA2-47E4-B594-F2DF916F387D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28758387-0DA2-47E4-B594-F2DF916F387D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
