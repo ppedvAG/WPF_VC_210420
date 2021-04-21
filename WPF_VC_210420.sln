@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01_Grundlagen", "HelloWPF\M01_Grundlagen.csproj", "{4CEE82B4-E666-4871-8539-42A5F979AD26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01_Grundlagen", "HelloWPF\M01_Grundlagen.csproj", "{4CEE82B4-E666-4871-8539-42A5F979AD26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M02_Controls", "Controls\M02_Controls.csproj", "{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M02_Controls", "Controls\M02_Controls.csproj", "{94FA3C3E-8F5E-40ED-883A-52CAB3C1104C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{28758387-0DA2-47E4-B594-F2DF916F387D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personendatenbank", "Personendatenbank\Personendatenbank.csproj", "{28758387-0DA2-47E4-B594-F2DF916F387D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_Container", "Container\M03_Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Container", "Container\M03_Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{BD4645EE-8CE3-4E47-B608-34AA70002639}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
