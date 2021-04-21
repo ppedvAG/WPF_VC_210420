@@ -11,9 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Personendatenbank", "Person
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M03_Container", "Container\M03_Container.csproj", "{0D75A42F-7F99-42E9-B004-7E1C6EEA833A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M04_EventHandling", "EventHandling\M04_EventHandling.csproj", "{D6EAC906-9933-4C76-AC6B-5E4225A9A26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{BD4645EE-8CE3-4E47-B608-34AA70002639}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M05_PropertyBinding", "PropertyBinding\M05_PropertyBinding.csproj", "{BD4645EE-8CE3-4E47-B608-34AA70002639}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{7AA4A7E8-35C2-4B93-B5C0-5105D4DD99BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M06_DataBinding", "DataBinding\M06_DataBinding.csproj", "{471FB69E-07EA-4C34-B7B7-E6F03E7F529F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources_Styles", "Resources_Styles\Resources_Styles.csproj", "{1603AA97-2A84-4ABB-A14C-E4A6D69A1BB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4645EE-8CE3-4E47-B608-34AA70002639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA4A7E8-35C2-4B93-B5C0-5105D4DD99BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA4A7E8-35C2-4B93-B5C0-5105D4DD99BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA4A7E8-35C2-4B93-B5C0-5105D4DD99BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA4A7E8-35C2-4B93-B5C0-5105D4DD99BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{471FB69E-07EA-4C34-B7B7-E6F03E7F529F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471FB69E-07EA-4C34-B7B7-E6F03E7F529F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{471FB69E-07EA-4C34-B7B7-E6F03E7F529F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471FB69E-07EA-4C34-B7B7-E6F03E7F529F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1603AA97-2A84-4ABB-A14C-E4A6D69A1BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1603AA97-2A84-4ABB-A14C-E4A6D69A1BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1603AA97-2A84-4ABB-A14C-E4A6D69A1BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1603AA97-2A84-4ABB-A14C-E4A6D69A1BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

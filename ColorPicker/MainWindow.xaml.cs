@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Personendatenbank
+namespace ColorPicker
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +23,15 @@ namespace Personendatenbank
         public MainWindow()
         {
             InitializeComponent();
+
+            Tbx_Red.PreviewKeyDown += (s, e) =>
+            {
+                if (e.Key == Key.Return)
+                {
+                    Tbx_Green.Focus();
+                    Tbx_Green.SelectAll();
+                }
+            };
         }
     }
 }
