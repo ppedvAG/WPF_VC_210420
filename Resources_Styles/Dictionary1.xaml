@@ -3,6 +3,7 @@
                     xmlns:local="clr-namespace:Resources_Styles"
                     xmlns:sys="clr-namespace:System;assembly=mscorlib">
 
-    <sys:String x:Key="Stg_StringAusDict">Klick Mich!!!</sys:String>
+    <!--ResourceDictionaries können Applikationsübergreifend verwendet werden, da sie eigene Dateien sind-->
+    <sys:String x:Key="StringAusDict">Klick Mich!!!</sys:String>
     
 </ResourceDictionary>
