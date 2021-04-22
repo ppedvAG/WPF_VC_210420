@@ -27,7 +27,27 @@
         <Setter Property="Margin" Value="0,0,5,0"/>
     </Style>
 
-    <Style TargetType="TextBox" BasedOn="{StaticResource Sty_Base}"/>
+    <Style TargetType="TextBox" BasedOn="{StaticResource Sty_Base}">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Border BorderBrush="Red" BorderThickness="1" x:Name="BdrAep">
+                            <AdornedElementPlaceholder x:Name="Aep"/>
+                        </Border>
+                        <TextBlock Text="!" Foreground="Red" FontSize="{StaticResource Dbl_Fontsize}"
+                           Margin="3,0" FontWeight="Bold" VerticalAlignment="Center"/>
+                        <Popup AllowsTransparency="True" PopupAnimation="Slide"
+                       PlacementTarget="{Binding ElementName=BdrAep}" Placement="Bottom"
+                       IsOpen="{Binding ElementName=Aep, Path=AdornedElement.IsMouseOver, Mode=OneWay}">
+                            <TextBlock Text="{Binding ElementName=Aep, Path=AdornedElement.(Validation.Errors)[0].ErrorContent}"
+                               Foreground="White" Background="Red" Padding="2" FontSize="{StaticResource Dbl_Fontsize}"/>
+                        </Popup>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
 
     <Style TargetType="DatePicker" BasedOn="{StaticResource Sty_Base}"/>
 

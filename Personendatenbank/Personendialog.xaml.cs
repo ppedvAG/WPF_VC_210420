@@ -23,6 +23,8 @@ namespace Personendatenbank
         public Personendialog()
         {
             InitializeComponent();
+
+            Cbb_Lieblingsfarbe.GetBindingExpression(ComboBox.SelectedValueProperty).UpdateSource();
         }
 
         private void Btn_Ok_Click(object sender, RoutedEventArgs e)
