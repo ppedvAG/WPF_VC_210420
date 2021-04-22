@@ -4,6 +4,12 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <RootNamespace>Trigger</RootNamespace>
+    <AssemblyName>Trigger</AssemblyName>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserControls\M11_UserControls.csproj" />
+  </ItemGroup>
 
 </Project>
