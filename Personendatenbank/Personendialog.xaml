@@ -25,6 +25,7 @@
 
     <Window.Resources>
         <local:GenderToBoolConverter x:Key="gender2bool"/>
+        <local:ColorToIndexConverter x:Key="color2index"/>
 
         <ObjectDataProvider x:Key="Odp_Colors"
                             MethodName="GetType"
@@ -106,7 +107,8 @@
                   Grid.Column="1" Grid.Row="4"
                   VerticalAlignment="Center"
                   Margin="2"
-                  SelectedValue="{Binding Lieblingsfarbe, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True}"
+                  SelectedValue="{Binding Lieblingsfarbe, Mode=OneWayToSource}"
+                  SelectedIndex="{Binding Lieblingsfarbe, Mode=OneWay, Converter={StaticResource color2index}, ConverterParameter={StaticResource Odp_ColorsProperties}}"
                   Validation.ErrorTemplate="{StaticResource CtpError}"
                   SelectedValuePath="Name"
                   ItemsSource="{Binding Source={StaticResource Odp_ColorsProperties}}">
