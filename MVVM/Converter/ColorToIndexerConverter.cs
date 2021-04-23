@@ -6,9 +6,9 @@ using System.Text;
 using System.Windows.Data;
 using System.Windows.Media;
 
-namespace Personendatenbank
+namespace MVVM.Converter
 {
-    class ColorToIndexConverter : IValueConverter
+    class ColorToIndexerConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
