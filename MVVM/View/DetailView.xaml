@@ -23,7 +23,7 @@
         <conv:GenderToBoolConverter x:Key="gender2bool"/>
         <conv:ColorToIndexerConverter x:Key="color2indexer"/>
 
-        <!--ObjectDataPropviders können Klassen und Objekte zu in XAML verwendbaren Elementen, wie
+        <!--ObjectDataProviders können Klassen und Objekte zu in XAML verwendbaren Elementen, wie
         z.B. Listen aufbereiten.
         Dieser ODP sorgt dafür, dass die Colors-Klasse in XAML zugänglich ist. Dazu benutzt er seine
         GetType-Methode. Die MethodParameter dafinieren, welche Klasse er aufbereiten soll.-->
@@ -163,6 +163,7 @@
                           Value="{Binding NeuePerson.Kinder, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, ValidatesOnDataErrors=True}"
                           Validation.ErrorTemplate="{StaticResource CtpError}"/>
 
+        <Image Source="{Binding NeuePerson.Image}" Grid.Row="7"/>
 
         <WrapPanel Grid.Row="7" Grid.ColumnSpan="2"
                    HorizontalAlignment="Right" Margin="0,5">

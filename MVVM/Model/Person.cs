@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace MVVM.Model
 {
@@ -23,6 +24,9 @@ namespace MVVM.Model
             Personenliste.Add(new Person() { Vorname = "Rainer", Nachname = "Zufall", Geburtsdatum = new DateTime(1977, 4, 2), Geschlecht = Gender.Männlich, Verheiratet = false, Lieblingsfarbe = Colors.IndianRed });
         }
         #endregion
+
+        //public string Image { get; set; } = @"C:\Users\kh2\Documents\ArbeitArbeit\Kurse\WPF\Material\ppedv.bmp";
+        public BitmapSource Image { get; set; } = new BitmapImage(new Uri(@"C:\Users\kh2\Documents\ArbeitArbeit\Kurse\WPF\Material\ppedv.bmp"));
 
         //Durch INotifyPropertyChanged verlangtes Event
         public event PropertyChangedEventHandler PropertyChanged;

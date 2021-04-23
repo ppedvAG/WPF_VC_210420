@@ -1,0 +1,25 @@
+﻿<Window x:Class="RelativSources.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RelativSources"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="393" Width="509">
+    <StackPanel>
+        <Slider Minimum="1" Maximum="300" Value="{Binding ElementName=Rct_Show, Path=Height}"/>
+        <Rectangle x:Name="Rct_Show"
+                   Fill="Black"
+                   Width="{Binding RelativeSource={RelativeSource Mode=Self}, Path=Height}"/>
+
+        <StackPanel Background="LightBlue" Margin="30">
+            <StackPanel Background="Yellow" Margin="30">
+                <StackPanel Background="Green" Margin="30" Height="100">
+                    <Button Content="Hallo" Margin="30"
+                            Background="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type StackPanel},AncestorLevel=3}, Path=Background}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+    </StackPanel>
+</Window>
