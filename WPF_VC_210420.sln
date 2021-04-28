@@ -29,15 +29,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M10_Trigger", "Trigger\M10_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M11_UserControls", "UserControls\M11_UserControls.csproj", "{3E48D37C-98CF-4B95-A265-7B2FEBF3FFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M13_Commands", "Commands\M13_Commands.csproj", "{4DE60CBF-1333-4FD6-A31B-BD95D913AF85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M13_Commands", "Commands\M13_Commands.csproj", "{4DE60CBF-1333-4FD6-A31B-BD95D913AF85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M14_MVVM", "MVVM\M14_MVVM.csproj", "{1658E4DA-39B7-44F3-BDB9-86C3DC67D0A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M14_MVVM", "MVVM\M14_MVVM.csproj", "{1658E4DA-39B7-44F3-BDB9-86C3DC67D0A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelativSources", "RelativSources\RelativSources.csproj", "{71D190E8-C2EB-42CF-A1CE-0BFDF20C8F47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M12_RelativSources", "RelativSources\M12_RelativSources.csproj", "{71D190E8-C2EB-42CF-A1CE-0BFDF20C8F47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localisation", "Localisation\Localisation.csproj", "{C60D9BBF-2BE8-4B12-91F9-15261C3016CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M15_Localisation", "Localisation\M15_Localisation.csproj", "{C60D9BBF-2BE8-4B12-91F9-15261C3016CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animations", "Animations\Animations.csproj", "{F18D0E07-91A2-4B48-936F-C8F2F9AD764C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M16_Animations", "Animations\M16_Animations.csproj", "{F18D0E07-91A2-4B48-936F-C8F2F9AD764C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
